@@ -1,0 +1,43 @@
+
+# Directorios de entornos virtuales
+venv/
+env/
+
+# Archivos de PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de BD
+*.sqlite3
+Artemis.sqlite3
+
+# Archivos de DJANGO
+migrations/
+
+# Archivos de caché/sesión
+*.log
+*.pot
+*.mo
+*.po
+*.session
+*.cache
+*.temp
+
+# Archivos de configuración/secretos
+*.conf
+# .env
+*.ini
+*.secret
+*.key
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
